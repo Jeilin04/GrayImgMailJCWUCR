@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-ImgGrayMailJCWUCR's
+GrayImgMailJCWUCR's
 ====================
 
 Bienvenidos a la documentación de la biblioteca 
@@ -23,7 +23,7 @@ Esta bilioteca consiste en un conjunto de módulos que permiten:
 Instalación
 ***********
 
-Para instalar el paquete de la biblioteca *"ImgGrayMailJCWUCR"*, es necesario seguir los siguientes pasos:
+Para instalar el paquete de la biblioteca *"GrayImgMailJCWUCR"*, es necesario seguir los siguientes pasos:
 
 #. Crear la ruta o carpeta donde albergará el "main.py" del programa a ejecutar.
 #. Crear el "main.py" genérico con el que ejecutará la biblioteca.
@@ -44,7 +44,7 @@ Para instalar el paquete de la biblioteca *"ImgGrayMailJCWUCR"*, es necesario se
 
 .. code-block:: python
    
-   pip install -i https://test.pypi.org/simple/ ImgGrayMailJCWUCR==0.0.1
+   pip install -i https://test.pypi.org/simple/ GrayImgMailJCWUCR==0.0.1
 
 
 7. Importar la biblioteca en el main (Ver el ejemplo que viene en la siguiente sección).
@@ -52,8 +52,8 @@ Para instalar el paquete de la biblioteca *"ImgGrayMailJCWUCR"*, es necesario se
 
 .. code-block:: python
 
-   from ImgGrayMailJCWUCR.imagenes import showImageFromURL, downloadImageFromUrl, grayScaleImage
-   from ImgGrayMailJCWUCR.mymail import sendQuickMail, sendAttachEmail
+   from GrayImgMailJCWUCR.imagenes import showImageFromURL, downloadImageFromUrl, grayScaleImage
+   from GrayImgMailJCWUCR.mymail import sendQuickMail, sendAttachEmail
 
    def main(args):
       
@@ -66,7 +66,7 @@ Referencias
 ***********
 
 Ruta repositorio Python:
-<https://github.com/Jeilin04/ProyectoPythonUCR.git>
+<https://github.com/Jeilin04/GrayImgMailJCWUCR.git>
 
 
 .. toctree::

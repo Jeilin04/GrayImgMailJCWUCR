@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.abspath("../../src/"))
 def setup(app):
     app.add_css_file('style.css')
 
-project = 'ImgGrayMailJCWUCR'
+project = 'GrayImgMailJCWUCR'
 copyright = '2023, Jeilin Crawford W.'
 author = 'Jeilin Crawford W.'
 release = '0.0.1'

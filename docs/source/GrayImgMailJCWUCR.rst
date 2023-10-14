@@ -1,21 +1,21 @@
-ImgGrayMailJCWUCR package
+GrayImgMailJCWUCR package
 =========================
 
 Submodules
 ----------
 
-ImgGrayMailJCWUCR.imagenes module
+GrayImgMailJCWUCR.imagenes module
 ---------------------------------
 
-.. automodule:: ImgGrayMailJCWUCR.imagenes
+.. automodule:: GrayImgMailJCWUCR.imagenes
    :members:
    :undoc-members:
    :show-inheritance:
 
-ImgGrayMailJCWUCR.mymail module
+GrayImgMailJCWUCR.mymail module
 -------------------------------
 
-.. automodule:: ImgGrayMailJCWUCR.mymail
+.. automodule:: GrayImgMailJCWUCR.mymail
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ ImgGrayMailJCWUCR.mymail module
 Module contents
 ---------------
 
-.. automodule:: ImgGrayMailJCWUCR
+.. automodule:: GrayImgMailJCWUCR
    :members:
    :undoc-members:
    :show-inheritance:
