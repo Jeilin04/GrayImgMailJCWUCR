@@ -5,15 +5,21 @@ import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
-from imagenes import ruta_completa
 
 os.system('cls') 
 
+print("A continuación se enviará por correo la imagen modificada, también se generará un QuickMail de confirmación. ¡Favor brindar los siguientes datos: \n")
+
 #Variables necesarias para email
-DatosRemitente = input("Favor digite, Nombre y Apellido de remitente \n") #"Jeilin Crawford" 
-CorreoReceptor = input("Favor digite correo del receptor \n") #"jeilinj@gmail.com"
-Correo = input("Favor digite su correo \n") 
-Contraseña = input("Favor digite su contraseña de aplicación \n") 
+DatosRemitente = input("Su nombre y apellido \n") #"Jeilin Crawford" 
+Correo = input("Su correo \n") 
+Contraseña = input("Su contraseña de aplicación \n") 
+CorreoReceptor = input("El correo al que desea enciar el archivo \n") #"jeilinj@gmail.com"
+
+rutaPC = input("¡Favor validar la ruta de la imagen descargada!\n(Ejm ---> C:/CursoPythonGit/Pythonnivel1/Nivel_2/1_Tareas/ProyFinal) \n\n")
+
+#Rutas para imagen 
+ruta_completa = os.path.join(rutaPC, f"imagen_a.jpg")
 
 def sendQuickMail(subject:str, message:str, destination:str):
     

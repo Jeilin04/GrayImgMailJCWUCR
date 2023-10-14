@@ -6,7 +6,7 @@ from io import BytesIO
 
 os.system('cls') 
 
-print("¡Bienvenido! A continuación se descargará una imagen de internet y se enviará por correo por como adjunto, también se generará un QuickMail de confirmación. \n")
+print("¡Bienvenido! A continuación se descargará una imagen de internet, se mostrará en pantalla y se guardará en una carpeta la versión gris de dicha imagen \n")
 
 #Variables necesarias y llamado de funciones de imágenes
 URL = "https://images.pexels.com/photos/259881/pexels-photo-259881.jpeg?cs=srgb&dl=pexels-pixabay-259881.jpg&fm=jpg"
